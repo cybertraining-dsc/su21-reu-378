@@ -4,7 +4,7 @@ title: "Project: This is the Descriptive Title of the Example"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
-author: RonDaisja Dunn
+author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
 resources:
 - src: "**.{png,jpg}"
@@ -16,7 +16,7 @@ resources:
 Status: draft, Type: Project
 
 
-RonDaisja Dunn, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378), [Edit](https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md)
+Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378), [Edit](https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md)
 
 {{% pageinfo %}}
 
