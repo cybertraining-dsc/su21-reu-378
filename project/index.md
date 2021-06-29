@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
-title: "Project: This is the Descriptive Title of the Example"
+title: "Project: Analysis of Autism in African American with AI"
 linkTitle: Example
 tags: ["project", "reu"]
-description: "Here comes the abstract"
+description: "Analyzing respiratory factors at birth that can lead to autism in African Americans"
 author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
 resources:
@@ -22,7 +22,7 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 ## Abstract
 
-Here comes a short abstract of the project that summarizes what it is about
+Analyzing respiratory factors at birth that can lead to autism in African Americans
 
 Contents
 
