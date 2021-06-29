@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Project: Analysis of Autism in three different cities using AI"
-linkTitle: Example
+linkTitle: Autism
 tags: ["project", "reu"]
 description: "Analyzing respiratory factors at birth that can lead to autism in African Americans"
 author: Myra Saunders
