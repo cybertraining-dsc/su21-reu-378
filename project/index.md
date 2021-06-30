@@ -35,9 +35,9 @@ Contents
 
 ## 1. Introduction
 
-- [ ] Add General Introduction about Autism.
+Autism is a genetic disorder, because there are some environmental factors, that causes challenges with speech, repetitive behaviors, social skills, and nonverbal communication.
 - [ ] Briefly explain the topic of my report (Detection of autism in children using a facial image).
-- [ ] State how AI will be applied/used.
+- [ ] State how AI will be applied/used. (Talk about AI and Autism)
 
 ## 2. Using Images
 
