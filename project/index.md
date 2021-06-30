@@ -3,7 +3,7 @@ date: 2021-06-16
 title: "Project: Detection of Autism in Children from a Facial Image using AI"
 linkTitle: Autism
 tags: ["project", "reu"]
-description: "Analyzing respiratory factors at birth that can lead to autism in African Americans"
+description: "Analyzing facial images of children to detect Autism"
 author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
 resources:
