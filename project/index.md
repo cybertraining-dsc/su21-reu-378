@@ -41,9 +41,7 @@ Autism is a genetic disorder, because there are some environmental factors, that
 
 ## 2. Using Images
 
-![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
-
-**Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
+- [ ] Iniclude images in report. If copied, cite them.
 
 ## 3. Using itemized lists only where needed
 
@@ -59,26 +57,16 @@ Remember this is not a powerpoint presentation, but a report so we recommend
 
 ## 5. Benchmark
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
+- [ ] Include a benchmark. (The easiest is to use cloudmesh-common [^2])
  
 ## 6. Conclusion
 
-A convincing but not fake conclusion should summarize what the conclusion of the project is.
+- [ ] Conclude my project.
 
 ## 7. Acknowledgments
 
-Please add acknowledgments to all that contributed or helped on this project.
+- [ ] Add acknowledgments.
 
 ## 8. References
 
-Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at 
-one point automatically change the references from superscript to square brackets it is best to introduce a space before 
-the first square bracket.
-
-[^1]: Use of energy explained - Energy use in homes, [Online resource] 
-      <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
-
-
-[^2]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
-      <https://github.com/cloudmesh/cloudmesh-common>
-
+- [ ] Add References.
