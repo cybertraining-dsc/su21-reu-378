@@ -22,7 +22,7 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 ## Abstract
 
-Analyzing Facial Images to detect Autism using AI.
+Austism is a neurological and developmental disorder that can cause difficulties with nonverbal communication, social skills, and repetative behaviors. Previous research has been done on the correlation between facial morphology and Autism Spectrum Disorder. This research project aims to provide information on the possibilities of detecting autism using a facial image analysis. 
 
 Contents
 
@@ -41,9 +41,6 @@ Symptoms of Autism Spectrum Disorder are normally identified based on psychologi
 ## 2. Images
 
 ![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
-
-(![image](https://user-images.githubusercontent.com/86624031/124418692-ea985880-dd10-11eb-9794-25691e224f91.png)
-)
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
