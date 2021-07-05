@@ -23,7 +23,6 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 ## Abstract
 
 Analyzing Facial Images to detect Autism using AI.
-- [ ] Add brief summary that explains what my project is about.
 
 Contents
 
@@ -41,7 +40,9 @@ Symptoms of Autism Spectrum Disorder are normally identified based on psychologi
 
 ## 2. Images
 
-- [ ] Iniclude images in report. If copied, cite them.
+![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
+
+**Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
 ## 3. Datasets
 
@@ -50,15 +51,15 @@ Symptoms of Autism Spectrum Disorder are normally identified based on psychologi
 
 ## 4. Benchmark
 
-- [ ] Include a benchmark. (The easiest is to use cloudmesh-common [^2])
+Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
 ## 5. Conclusion
 
-- [ ] Conclude my project.
+A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
 ## 6. Acknowledgments
 
-- [ ] Add acknowledgments.
+Please add acknowledgments to all that contributed or helped on this project. 
 
 ## 7. References
 
