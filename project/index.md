@@ -31,14 +31,13 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** Autism Spectrum Disorder, Detect, Analysis, Facial Image. 
+**Keywords:** Autism Spectrum Disorder, Detect, Analysis, Image Data, Computer Vision. 
 
 ## 1. Introduction
 
-Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders, that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old, and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Moreover, in 2020, the U.S. Centers for Disease Control and Prevention reported that one in 54 children aged eight in 2016 in the United States have been diagnosed with an Autism Spectrum Disorder[^2]. Autism is notably more common among boys than it is among girls. An early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^3]. There are no pathophysiological markers that detect Autsim[^4]. This can make diagnosing a person with Autism somewhat difficult. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^4]. 
+Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders, that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old, and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Moreover, in 2020, the U.S. Centers for Disease Control and Prevention reported that one in 54 children aged eight in 2016 in the United States have been diagnosed with an Autism Spectrum Disorder[^2]. Autism is notably more common among boys than it is among girls. An early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^3]. There are no pathophysiological markers that detect Autsim[^4]. This can make diagnosing a person with Autism somewhat difficult. 
 
-
-Previous reserach has shown that analyzing facial images using Artificial Intelligence can be used to detect Autism Spectrum Disorder. This project will provide insight into how 
+Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^4]. Previous research has been done on facial morphology and how it relates to Autism Spectrum Disorder. Many researchers believe that people with Autism have distinct facial features that can be used to detect and diagnose their Autism Spectrum Disorder[^5]. The goal of this project is to analyze facial images of Autistic and non-autistic children using Artificial Intelligence, and show how it can be used to detect Autism Spectrum Disorder. This project will provide insight into how an analysis of a facial image can be used detect Autism, and will also show the effectiveness and accuracy of using a facial image analysis to detect Autism.
 
 ## 2. Images
 
@@ -70,3 +69,5 @@ Previous reserach has shown that analyzing facial images using Artificial Intell
 [^3]: Raj, S., and Masood, S., 2020. Analysis and Detection of Autism Spectrum Disorder Using Machine Learning Techniques, [Online resource] https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&originRegion=us-east-1&originCreation=20210704171932
 
 [^4]: Khodatars, M., Shoeibi, A., Ghassemi, N., Jafari, M., Khadem, A., Sadeghi, D., Moridian, P., Hussain, S., Alizadehsani, R., Zare, A., Khosravi, A., Nahavandi, S., Acharya, U. R., Berk, M., 2020. Deep Learning for Neuroimaging-based Diagnosis and Rehabilitation of Autism Spectrum Disorder: A Review. [Online resource] https://arxiv.org/pdf/2007.01285.pdf
+
+[^5]: Musser, M., 2020. Detecting Autism Spectrum Disorder in Children using Computer Vision, Adapting facial recognition models to detect Autism Spectrum Disorder. [Online resource] https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a
