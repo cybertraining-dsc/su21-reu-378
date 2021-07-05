@@ -35,11 +35,11 @@ Contents
 
 ## 1. Introduction
 
-Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders, that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old, and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide [^1]. Moreover, in 2020, the U.S. Centers for Disease Control and Prevention reported that one in 54 children in the United States have been diagnosed with an Autism Spectrum Disorder [^2]. Autism is notably more common among boys than it is among girls. An early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face [^3]. There are no pathophysiological markers or medical tests, such as blood tests, that detect Autsim [^4,^5]. This can make diagnosing a person with Autism somewhat difficult. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria [^5]. 
+Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders, that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old, and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide [^1]. Moreover, in 2020, the U.S. Centers for Disease Control and Prevention reported that one in 54 children aged eight in 2016 in the United States have been diagnosed with an Autism Spectrum Disorder [^2]. Autism is notably more common among boys than it is among girls. An early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face [^3]. There are no pathophysiological markers or medical tests, such as blood tests, that detect Autsim [^4,^5]. This can make diagnosing a person with Autism somewhat difficult. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria [^5]. 
 
-Previous reserach has shown that Machine Learning can be used to detect and diagnose Autism Spectrum Disorder. 
+Previous reserach has shown that Machine Learning can be used to detect and diagnose Autism Spectrum Disorder. This project will give a general overview of the various Machine Learning Techniques used to detect Autsim Spectrum Disorder. The aim of this project is to also analyze the effectiveness of each of these techniques. 
 
-## 2. Using Images
+## 2. Images
 
 - [ ] Iniclude images in report. If copied, cite them.
 
@@ -62,8 +62,12 @@ Previous reserach has shown that Machine Learning can be used to detect and diag
 
 ## 7. References
 
-Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.
+[^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders
 
-[^1]: Use of energy explained - Energy use in homes, [Online resource] https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php
+[^2]: Centers for Disease Control and Prevention. 2020. Data and Statistics on Autism Spectrum Disorder | Cdc.Gov. [Online resource] https://www.cdc.gov/ncbddd/autism/data.html
 
-[^2]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] https://github.com/cloudmesh/cloudmesh-common
+[^3]: Raj, S., and Masood, S., 2020. Analysis and Detection of Autism Spectrum Disorder Using Machine Learning Techniques, [Online resource] https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&originRegion=us-east-1&originCreation=20210704171932
+
+[^4]: 
+
+[^5]: Khodatars, M., Shoeibi, A., Ghassemi, N., Jafari, M., Khadem, A., Sadeghi, D., Moridian, P., Hussain, S., Alizadehsani, R., Zare, A., Khosravi, A., Nahavandi, S., Acharya, U. R., Berk, M., 2020. Deep Learning for Neuroimaging-based Diagnosis and Rehabilitation of Autism Spectrum Disorder: A Review. [Online resource] https://arxiv.org/pdf/2007.01285.pdf
