@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
-title: "Project: Analysis of Machine Learning Techniques used for Autism Spectrum Disorder Diagnosis"
+title: "Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
 linkTitle: Autism
 tags: ["project", "reu"]
-description: "Analyzing Machine Learning techniques used for Autism diagnosis"
+description: "Analyzing Facial Images to Detect Austism Spectrum Disorder using AI"
 author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
 resources:
@@ -22,7 +22,7 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 ## Abstract
 
-Analyzing Machine Learning techniques for Autism Diagnosis.
+Analyzing Facial Images to detect Autism using AI.
 - [ ] Add brief summary that explains what my project is about.
 
 Contents
@@ -31,13 +31,14 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** Autism Spectrum Disorder, Diagnosis, Machine Learning Techniques. 
+**Keywords:** Autism Spectrum Disorder, Detect, Analysis, Facial Image. 
 
 ## 1. Introduction
 
 Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders, that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old, and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Moreover, in 2020, the U.S. Centers for Disease Control and Prevention reported that one in 54 children aged eight in 2016 in the United States have been diagnosed with an Autism Spectrum Disorder[^2]. Autism is notably more common among boys than it is among girls. An early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^3]. There are no pathophysiological markers that detect Autsim[^4]. This can make diagnosing a person with Autism somewhat difficult. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^4]. 
 
-Previous reserach has shown that Machine Learning can be used to detect and diagnose Autism Spectrum Disorder. This project will give a general overview of the various Machine Learning Techniques used to detect Autsim Spectrum Disorder. The aim of this project is to also analyze the effectiveness of each of these techniques. 
+
+Previous reserach has shown that analyzing facial images using Artificial Intelligence can be used to detect Autism Spectrum Disorder. This project will provide insight into how 
 
 ## 2. Images
 
