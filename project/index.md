@@ -42,6 +42,9 @@ Symptoms of Autism Spectrum Disorder are normally identified based on psychologi
 
 ![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
 
+(![image](https://user-images.githubusercontent.com/86624031/124418692-ea985880-dd10-11eb-9794-25691e224f91.png)
+)
+
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
 ## 3. Datasets
