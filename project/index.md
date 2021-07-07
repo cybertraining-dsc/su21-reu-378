@@ -34,16 +34,11 @@ Contents
 
 ## 1. Introduction
 
-Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide^1. Early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^2]. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^3]. 
+Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^2]. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^3]. 
 
 Machine Learning is a branch of Artificial Intelligence that has the potential to substantially enhance the role of computational methods in neuroscience[^4]. Because of the rise in use of Machine Learning techniques in the research dimensions of medical diagnosis, many researchers have attempted to explore the possibility of using various machine learning techniques to detect and diagnose children, adolescents, and adults with Autism[^2]. Some researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. Many researchers believe that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^5]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^6]. 
 
-Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image. The previous research aimed to create a no cost means to provide a first level screen for autism diagnosis[^7]. 
-
-
-The goal of this project is to analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence, and show how it could possibly be used to detect Autism Spectrum Disorder. 
- 
-
+Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image. The previous research aimed to create a no cost means to provide a first level screen for autism diagnosis, whereby parents could submit an image of their child and in return recieve a returned probability of the potential of Autism. To contribut to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. The goal is to show how a facial image analysis could be used to detect Autism Spectrum Disorder in children. 
 
 ## 2. Images
 
