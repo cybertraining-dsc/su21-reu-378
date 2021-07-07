@@ -2,7 +2,7 @@
 date: 2021-06-16
 title: "Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
 linkTitle: Autism
-tags: ["project", "reu"]
+tags: ["project", "reu","AI",Autism Spectrum Disorder"]
 description: "Analyzing Facial Images to Detect Austism Spectrum Disorder using AI"
 author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
@@ -38,7 +38,7 @@ Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and ne
 
 Machine Learning is a branch of Artificial Intelligence that has the potential to substantially enhance the role of computational methods in neuroscience[^4]. Because of the rise in use of Machine Learning techniques in the research dimensions of medical diagnosis, many researchers have attempted to explore the possibility of using various machine learning techniques to detect and diagnose children, adolescents, and adults with Autism[^2]. Some researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. Many researchers believe that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^5]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^6]. 
 
-Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image. The previous research aimed to create a no cost means to provide a first level screen for autism diagnosis, whereby parents could submit an image of their child and in return recieve a returned probability of the potential of Autism. To contribut to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. The goal is to show how a facial image analysis could be used to detect Autism Spectrum Disorder in children. 
+Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image. The previous research aimed to create a no cost means to provide a first level screen for autism diagnosis, whereby parents could submit an image of their child and in return recieve a returned probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. The goal is to show how a facial image analysis could be used to detect Autism Spectrum Disorder in children. 
 
 ## 2. Images
 
