@@ -34,13 +34,16 @@ Contents
 
 ## 1. Introduction
 
-Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^2]. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^3]. 
+Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide^1. Early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^2]. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^3]. 
 
-Machine Learning is a branch of Artificial Intelligence that has the potential to substantially enhance the role of computational methods in neuroscience[^4]. Because of the rise in use of Machine Learning techniques in the research dimensions of medical diagnosis, many researchers have attempted to explore the possibility of using various machine learning techniques to detect and diagnose children, adolescents, and adults with Autism[^2]. Some researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. Many researchers believe that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^5]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^6]. The goal of this project is to analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence, and show how it could possibly be used to detect Autism Spectrum Disorder. 
+Machine Learning is a branch of Artificial Intelligence that has the potential to substantially enhance the role of computational methods in neuroscience[^4]. Because of the rise in use of Machine Learning techniques in the research dimensions of medical diagnosis, many researchers have attempted to explore the possibility of using various machine learning techniques to detect and diagnose children, adolescents, and adults with Autism[^2]. Some researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. Many researchers believe that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^5]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^6]. 
 
-Previous research has been done 
+Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image. The previous research aimed to create a no cost means to provide a first level screen for autism diagnosis[^7]. 
 
-Write about facial image with AI to predict autism, what have you already done.
+
+The goal of this project is to analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence, and show how it could possibly be used to detect Autism Spectrum Disorder. 
+ 
+
 
 ## 2. Images
 
@@ -63,18 +66,18 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 
 ## 6. Acknowledgments
 
-Please add acknowledgments to all that contributed or helped on this project. 
+The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
 ## 7. References
 
-[^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
+1.World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
-[^2]: Raj, S., and Masood, S., 2020. Analysis and Detection of Autism Spectrum Disorder Using Machine Learning Techniques, [Online resource] <https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&originRegion=us-east-1&originCreation=20210704171932>
+2.Raj, S., and Masood, S., 2020. Analysis and Detection of Autism Spectrum Disorder Using Machine Learning Techniques, [Online resource] <https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&originRegion=us-east-1&originCreation=20210704171932>
 
-[^3]: Khodatars, M., Shoeibi, A., Ghassemi, N., Jafari, M., Khadem, A., Sadeghi, D., Moridian, P., Hussain, S., Alizadehsani, R., Zare, A., Khosravi, A., Nahavandi, S., Acharya, U. R., Berk, M., 2020. Deep Learning for Neuroimaging-based Diagnosis and Rehabilitation of Autism Spectrum Disorder: A Review. [Online resource] <https://arxiv.org/pdf/2007.01285.pdf>
+3.Khodatars, M., Shoeibi, A., Ghassemi, N., Jafari, M., Khadem, A., Sadeghi, D., Moridian, P., Hussain, S., Alizadehsani, R., Zare, A., Khosravi, A., Nahavandi, S., Acharya, U. R., Berk, M., 2020. Deep Learning for Neuroimaging-based Diagnosis and Rehabilitation of Autism Spectrum Disorder: A Review. [Online resource] <https://arxiv.org/pdf/2007.01285.pdf>
 
-[^4]: Machine Learning Methods for Diagnosing Autism Spectrum Disorder and Attention- Deficit/Hyperactivity Disorder Using Functional and Structural MRI: A Survey [Online resource] <https://www.frontiersin.org/articles/10.3389/fninf.2020.575999/full#B50>
+4.Machine Learning Methods for Diagnosing Autism Spectrum Disorder and Attention- Deficit/Hyperactivity Disorder Using Functional and Structural MRI: A Survey [Online resource] <https://www.frontiersin.org/articles/10.3389/fninf.2020.575999/full#B50>
 
-[^5]: Musser, M., 2020. Detecting Autism Spectrum Disorder in Children using Computer Vision, Adapting facial recognition models to detect Autism Spectrum Disorder. [Online resource] <https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a>
+5.Musser, M., 2020. Detecting Autism Spectrum Disorder in Children using Computer Vision, Adapting facial recognition models to detect Autism Spectrum Disorder. [Online resource] <https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a>
 
-[^6]: Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] <https://www.mdpi.com/2076-3425/11/6/734>
+6.Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] <https://www.mdpi.com/2076-3425/11/6/734>
