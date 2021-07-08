@@ -50,9 +50,9 @@ Previous research has been done to determine if Autism Spectrum Disorder can be 
 
 Dataset - .csv file that contains the filepaths, labels, and dataset relative to study.
 https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv
--[ ] Download the Data
--[ ] Code in google colab (or nanohub)
--[ ] Download and use CNN taught in lecture
+- [ ] Download the Data
+- [ ] Code in google colab (or nanohub)
+- [ ] Download and use CNN taught in lecture
 
 ## 4. Benchmark
 
