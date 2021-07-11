@@ -21,8 +21,7 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 {{% pageinfo %}}
 
 ## Abstract
-
-Austism is a neurological and developmental disorder that can cause difficulties with nonverbal communication, social skills, and repetative behaviors. Previous research has been done on the correlation between facial morphology and Autism Spectrum Disorder. This research project aims to provide information on the possibilities of detecting autism using a facial image analysis. 
+As Autism affects 1 in every 160 children worlwide, early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism can sometimes be difficult to detect, especially if the individual is on the higher-functioning end of the spectrum. By applying Machine Learning, one could develop an effective method to detect and diagnose people with Autism. Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. This project explores the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be analyzed using Artificial Intelligence.
 
 Contents
 
@@ -38,7 +37,7 @@ Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and ne
 
 Machine Learning is a branch of Artificial Intelligence that has the potential to substantially enhance the role of computational methods in neuroscience[^4]. Because of the rise in use of Machine Learning techniques in the research dimensions of medical diagnosis, many researchers have attempted to explore the possibility of using various machine learning techniques to detect and diagnose children, adolescents, and adults with Autism[^2]. Some researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. Many researchers believe that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^5]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^6]. 
 
-Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image. The previous research aimed to create a no cost means to provide a first level screen for autism diagnosis, whereby parents could submit an image of their child and in return recieve a returned probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. The goal is to show how a facial image analysis could be used to detect Autism Spectrum Disorder in children. 
+Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^7]. The previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a returned probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. The goal is to show how a facial image analysis could possibly be used to detect Autism Spectrum Disorder in children. 
 
 ## 2. Images
 
@@ -79,3 +78,5 @@ The author of this project would like to express a vote of thanks to Yohn Jairo,
 [^5]: Musser, M., 2020. Detecting Autism Spectrum Disorder in Children using Computer Vision, Adapting facial recognition models to detect Autism Spectrum Disorder. [Online resource] <https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a>
 
 [^6]: Akter, T., Ali, M. H., Khan, I., Satu, S., Uddin, Jamal., Alyami, S. A., Ali, S., Azad, A., and Moni, M. A., 2021. Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] <https://www.mdpi.com/2076-3425/11/6/734>
+
+[^7]: Detect Autism from a facial image. <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
