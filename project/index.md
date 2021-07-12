@@ -54,9 +54,6 @@ What will be done to carry out this project?
 
 Dataset - .csv file that contains the filepaths, labels, and dataset relative to study.
 https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv
-- [x] Download the Data
-- [ ] Code in google colab (or nanohub)
-- [ ] Download and use CNN taught in lecture
 
 ## 5. Benchmark
 
