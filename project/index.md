@@ -42,8 +42,7 @@ Previous research has been done to determine if Autism Spectrum Disorder can be 
 
 ## 2. Methodology
 
-What will do to carry out this project?
-- [ ] Add in complete methodology/procedure that I will follow to complete this task.
+What will be done to carry out this project?
 
 ## 3. Images
 
@@ -55,7 +54,7 @@ What will do to carry out this project?
 
 Dataset - .csv file that contains the filepaths, labels, and dataset relative to study.
 https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv
-- [ ] Download the Data
+- [x] Download the Data
 - [ ] Code in google colab (or nanohub)
 - [ ] Download and use CNN taught in lecture
 
