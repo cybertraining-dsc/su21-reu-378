@@ -40,13 +40,18 @@ Machine Learning is a branch of Artificial Intelligence that has the potential t
 
 Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^7]. The previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a returned probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. The goal is to show how a facial image analysis could possibly be used to detect Autism Spectrum Disorder in children. 
 
-## 2. Images
+## 2. Methodology
+
+What will do to carry out this project?
+- [ ] Add in complete methodology/procedure that I will follow to complete this task.
+
+## 3. Images
 
 ![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
-## 3. Datasets
+## 4. Datasets
 
 Dataset - .csv file that contains the filepaths, labels, and dataset relative to study.
 https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv
@@ -54,19 +59,19 @@ https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?se
 - [ ] Code in google colab (or nanohub)
 - [ ] Download and use CNN taught in lecture
 
-## 4. Benchmark
+## 5. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 5. Conclusion
+## 6. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 6. Acknowledgments
+## 7. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
-## 7. References
+## 8. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
