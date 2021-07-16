@@ -48,7 +48,7 @@ This previous research aimed to create a no cost means to provide a first level 
 
 What will be done to carry out this project? what methodology they used ? 
 
-* Convolutional Neural Network
+* ## 2.1. Convolutional Neural Network
 
 ## 3. Images
 
@@ -73,11 +73,15 @@ Your project must include a benchmark. The easiest is to use cloudmesh-common [^
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 7. Acknowledgments
+## 7. Future Work
+
+Talk about what work will be done in the future.
+
+## 8. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
-## 8. References
+## 9. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
