@@ -54,8 +54,7 @@ What will be done to carry out this project? what methodology they used ?
 
 ## 4. Datasets
 
-Dataset - .csv file that contains the filepaths, labels, and dataset relative to study.
-https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv
+* https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv
 
 The dataset used is a CSV file that contains the filepaths, labels, and dataset relative to this study. It is provided to be used in two ways, which are both standard for machine learning tasks. For the first standard method, the data is divided into Training, Test, and Validation sets. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. The Autistic and Non-Autistic subdirectories consist of 1667 facial images of Autistic children and 1667 facial images of Non-Autistic children respectively, in 224 X 224 X 3, jpg format. The validation images located in the valid directory are separated into 50 images of autistic children and 50 images of non-autistic children in the same format as for the training set. The test data located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. The second way the data is provided is in the consolidated directory. This directory also has the two sub directories of Autistic and Non_Autistic. It represents the consolidation of the files from the train, test and valid directories into a single set. 
 
