@@ -49,6 +49,8 @@ This previous research aimed to create a no cost means to provide a first level 
 What will be done to carry out this project? what methodology they used ? 
 
 * ## 2.1. Convolutional Neural Network
+- [ ] Add brief description about CNN.
+- [ ] Tell how it will be used for this project.
 
 ## 3. Images
 
