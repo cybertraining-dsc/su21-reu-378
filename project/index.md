@@ -24,6 +24,8 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 Autism affects 1 in every 160 children worlwide, early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism can sometimes be difficult to detect, especially if the individual is on the higher-functioning end of the spectrum. Machine Learning can develop an effective method to detect and diagnose people with Autism. Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. This project explores the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be analyzed using Artificial Intelligence.
 
+- [ ] ADD MORE INFO TO ABSTRACT.
+
 Contents
 
 {{< table_of_contents >}}
@@ -46,6 +48,8 @@ This previous research aimed to create a no cost means to provide a first level 
 
 What will be done to carry out this project? what methodology they used ? 
 
+* Convolutional Neural Network
+
 ## 3. Images
 
 ![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
@@ -54,11 +58,12 @@ What will be done to carry out this project? what methodology they used ?
 
 ## 4. Datasets
 
-* https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv
+* <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
 
-The dataset used is a CSV file that contains the filepaths, labels, and dataset relative to this study. It is provided to be used in two ways, which are both standard for machine learning tasks. For the first standard method, the data is divided into Training, Test, and Validation sets. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. The Autistic and Non-Autistic subdirectories consist of 1667 facial images of Autistic children and 1667 facial images of Non-Autistic children respectively, in 224 X 224 X 3, jpg format. The validation images located in the valid directory are separated into 50 images of autistic children and 50 images of non-autistic children in the same format as for the training set. The test data located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. The second way the data is provided is in the consolidated directory. This directory also has the two sub directories of Autistic and Non_Autistic. It represents the consolidation of the files from the train, test and valid directories into a single set. 
+The dataset used for this project is a CSV file that contains the filepaths, labels, and dataset relative to this study. It is provided to be used in two ways, which are both standard for machine learning tasks. For the first standard method, the data is divided into Training, Test, and Validation sets. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. The Autistic and Non-Autistic subdirectories consist of 1667 facial images of Autistic children and 1667 facial images of Non-Autistic children respectively, in 224 X 224 X 3, jpg format. The validation images located in the valid directory are separated into 50 images of autistic children and 50 images of non-autistic children in the same format as for the training set. The test data located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. The second way the data is provided is in the consolidated directory. This directory also has the two sub directories of Autistic and Non_Autistic. It represents the consolidation of the files from the train, test and valid directories into a single set. 
 
 - [ ] ADD PARAGRAPH ABOUT ETHICS IN AUTISM.
+- [ ] FIX INFO IN DATA SET PARAGRAPH. (VERSION 12)
 
 ## 5. Benchmark
 
@@ -86,4 +91,4 @@ The author of this project would like to express a vote of thanks to Yohn Jairo,
 
 [^6]: Akter, T., Ali, M. H., Khan, I., Satu, S., Uddin, Jamal., Alyami, S. A., Ali, S., Azad, A., and Moni, M. A., 2021. Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] <https://www.mdpi.com/2076-3425/11/6/734>
 
-[^7]: Detect Autism from a facial image. <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
+[^7]: Gerry, 2020. Detect Autism from a facial image. <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
