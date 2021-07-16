@@ -66,6 +66,7 @@ The dataset used for this project is a CSV file that contains the filepaths, lab
 
 - [ ] ADD PARAGRAPH ABOUT ETHICS IN AUTISM.
 - [ ] FIX INFO IN DATA SET PARAGRAPH. (VERSION 12)
+- [ ] ADD IMAGE AS AN EXAMPLE.
 
 ## 5. Benchmark
 
