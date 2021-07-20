@@ -22,7 +22,23 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 ## Abstract
 
-Autism affects 1 in every 160 children worlwide, early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism can sometimes be difficult to detect, especially if the individual is on the higher-functioning end of the spectrum. Machine Learning can develop an effective method to detect and diagnose people with Autism. Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. This project explores the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be analyzed using Artificial Intelligence.
+Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. 
+
+
+Autism is usually diagnosed by a pediatrician through various Autism screening methnods. This screening consists of behavioral questionaires
+
+
+
+Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for this screening. 
+
+
+
+Autism can sometimes be difficult to detect, especially if the individual is on the higher-functioning end of the spectrum. 
+
+
+
+
+Machine Learning can develop an effective method to detect and diagnose people with Autism. Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder. This project explores the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be analyzed using Artificial Intelligence.
 
 - [ ] ADD MORE INFO TO ABSTRACT.
 - [ ] DON'T FORGET TO FOLLOW PROJECT FORMAT!!!!!!!!!
