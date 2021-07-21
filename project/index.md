@@ -69,7 +69,7 @@ What will be done to carry out this project? what methodology they used ?
 - [ ] Tell how it will be used for this project.
 - [ ] Add an image.
 
-## 5. Results
+## 5. Results and Discussion
 
 - [ ] Talk about the results obtained.
 - [ ] Include Images.
