@@ -44,7 +44,7 @@ Previous research has been done to determine if Autism Spectrum Disorder can be 
 
 This previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. 
 
-- [ ] Talk about acuuracy predictions and goals.
+- [ ] Talk about accuracy predictions and goals.
 - [ ] ADD PARAGRAPH ABOUT ETHICS IN AUTISM.
 
 ## 2. Methodology
@@ -57,9 +57,14 @@ What will be done to carry out this project? what methodology they used ?
 
 ## 3. Datasets
 
+The dataset used for this project was obtained from Kaggle[^7]. 
 * <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
 
-The dataset used for this project is a CSV file that contains the filepaths, labels, and dataset relative to this study. It is provided to be used in two ways, which are both standard for machine learning tasks. For the first standard method, the data is divided into Training, Test, and Validation sets. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. The Autistic and Non-Autistic subdirectories consist of 1667 facial images of Autistic children and 1667 facial images of Non-Autistic children respectively, in 224 X 224 X 3, jpg format. The validation images located in the valid directory are separated into 50 images of autistic children and 50 images of non-autistic children in the same format as for the training set. The test data located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. The second way the data is provided is in the consolidated directory. This directory also has the two sub directories of Autistic and Non_Autistic. It represents the consolidation of the files from the train, test and valid directories into a single set. 
+This project uses version 12 of this dataset.
+
+The dataset consists of three directories labled test, train, and valid, along with a CSV file. 
+
+is provided to be used in two ways, which are both standard for machine learning tasks. For the first standard method, the data is divided into Training, Test, and Validation sets. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. The Autistic and Non-Autistic subdirectories consist of 1667 facial images of Autistic children and 1667 facial images of Non-Autistic children respectively, in 224 X 224 X 3, jpg format. The validation images located in the valid directory are separated into 50 images of autistic children and 50 images of non-autistic children in the same format as for the training set. The test data located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. The second way the data is provided is in the consolidated directory. This directory also has the two sub directories of Autistic and Non_Autistic. It represents the consolidation of the files from the train, test and valid directories into a single set. 
 
 * ## 3.1. Dataset Cleaning
 * ## 3.2. Analysis of Dataset
@@ -99,4 +104,4 @@ The author of this project would like to express a vote of thanks to Yohn Jairo,
 
 [^6]: Akter, T., Ali, M. H., Khan, I., Satu, S., Uddin, Jamal., Alyami, S. A., Ali, S., Azad, A., and Moni, M. A., 2021. Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] <https://www.mdpi.com/2076-3425/11/6/734>
 
-[^7]: Gerry, 2020. Detect Autism from a facial image. <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
+[^7]: Piosenka, G., 2020. Detect Autism from a facial image. <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
