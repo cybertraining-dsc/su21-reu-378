@@ -22,9 +22,7 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 ## Abstract
 
-Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used.
-
-- [ ] Add a few more sentences.
+Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project.
 
 Contents
 
@@ -47,46 +45,52 @@ This previous research aimed to create a no cost means to provide a first level 
 - [ ] Talk about accuracy predictions and goals.
 - [ ] ADD PARAGRAPH ABOUT ETHICS IN AUTISM.
 
-## 2. Methodology
+## 2. Previous Work
+
+- [ ] Talk about previous work that has been done.
+- [ ] Talk about algorithms used and accuracy received.
+- [ ] Talk about how this will help with my work.
+- [ ] Add Images
+
+## 3. Dataset
+
+* <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
+
+The dataset used for this project was obtained from Kaggle[^7]. This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
+
+* ## 2.2.1. Dataset Cleaning
+
+## 4. Methodology
 
 What will be done to carry out this project? what methodology they used ? 
 
 * ## 2.1. Convolutional Neural Network
 - [ ] Add brief description about CNN.
 - [ ] Tell how it will be used for this project.
+- [ ] Add an image.
 
-## 3. Datasets
-
-The dataset used for this project was obtained from Kaggle[^7]. 
-* <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
-
-This project uses version 12 of this dataset. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
-
-* ## 3.1. Dataset Cleaning
-* ## 3.2. Analysis of Dataset
-
-## 4. Results
+## 5. Results
 
 - [ ] Talk about the results obtained.
 - [ ] Include Images.
 
-## 5. Benchmark
+## 6. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 6. Conclusion
+## 7. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 7. Future Work
+## 8. Future Work
 
 Talk about what work will be done in the future.
 
-## 8. Acknowledgments
+## 9. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
-## 9. References
+## 10. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
