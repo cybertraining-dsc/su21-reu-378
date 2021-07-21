@@ -45,6 +45,7 @@ Previous research has been done to determine if Autism Spectrum Disorder can be 
 This previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. 
 
 - [ ] Talk about acuuracy predictions and goals.
+- [ ] ADD PARAGRAPH ABOUT ETHICS IN AUTISM.
 
 ## 2. Methodology
 
@@ -54,47 +55,37 @@ What will be done to carry out this project? what methodology they used ?
 - [ ] Add brief description about CNN.
 - [ ] Tell how it will be used for this project.
 
-## 3. Images
-
-![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
-
-**Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
-
-- [ ] Remove set image.
-- [ ] Add own image.
-
-## 4. Datasets
+## 3. Datasets
 
 * <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
 
 The dataset used for this project is a CSV file that contains the filepaths, labels, and dataset relative to this study. It is provided to be used in two ways, which are both standard for machine learning tasks. For the first standard method, the data is divided into Training, Test, and Validation sets. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. The Autistic and Non-Autistic subdirectories consist of 1667 facial images of Autistic children and 1667 facial images of Non-Autistic children respectively, in 224 X 224 X 3, jpg format. The validation images located in the valid directory are separated into 50 images of autistic children and 50 images of non-autistic children in the same format as for the training set. The test data located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. The second way the data is provided is in the consolidated directory. This directory also has the two sub directories of Autistic and Non_Autistic. It represents the consolidation of the files from the train, test and valid directories into a single set. 
 
-- [ ] ADD PARAGRAPH ABOUT ETHICS IN AUTISM.
-- [ ] FIX INFO IN DATA SET PARAGRAPH. (VERSION 12)
-- [ ] ADD IMAGE AS AN EXAMPLE.
+* ## 3.1. Dataset Cleaning
+* ## 3.2. Analysis of Dataset
 
-## 5. Results
+## 4. Results
 
 - [ ] Talk about the results obtained.
 - [ ] Include Images.
 
-## 6. Benchmark
+## 5. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 7. Conclusion
+## 6. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 8. Future Work
+## 7. Future Work
 
 Talk about what work will be done in the future.
 
-## 9. Acknowledgments
+## 8. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
-## 10. References
+## 9. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
