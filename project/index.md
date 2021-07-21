@@ -60,11 +60,7 @@ What will be done to carry out this project? what methodology they used ?
 The dataset used for this project was obtained from Kaggle[^7]. 
 * <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
 
-This project uses version 12 of this dataset.
-
-The dataset consists of three directories labled test, train, and valid, along with a CSV file. 
-
-is provided to be used in two ways, which are both standard for machine learning tasks. For the first standard method, the data is divided into Training, Test, and Validation sets. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. The Autistic and Non-Autistic subdirectories consist of 1667 facial images of Autistic children and 1667 facial images of Non-Autistic children respectively, in 224 X 224 X 3, jpg format. The validation images located in the valid directory are separated into 50 images of autistic children and 50 images of non-autistic children in the same format as for the training set. The test data located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. The second way the data is provided is in the consolidated directory. This directory also has the two sub directories of Autistic and Non_Autistic. It represents the consolidation of the files from the train, test and valid directories into a single set. 
+This project uses version 12 of this dataset. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
 
 * ## 3.1. Dataset Cleaning
 * ## 3.2. Analysis of Dataset
