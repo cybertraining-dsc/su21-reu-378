@@ -24,6 +24,8 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used.
 
+- [ ] Add a few more sentences.
+
 Contents
 
 {{< table_of_contents >}}
@@ -36,11 +38,13 @@ Contents
 
 Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups. This neurological disorder can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Early detection and diagnosis of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^2]. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^3]. 
 
-Machine Learning is a branch of Artificial Intelligence that has the potential to substantially enhance the role of computational methods in neuroscience[^4].  Techniques used in Machine Learning help research dimensions of medical diagnosis, many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism[^2]. Researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^5]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^6]. 
+Machine Learning is a branch of Artificial Intelligence that has the potential to substantially enhance the role of computational methods in neuroscience[^4].  Techniques used in Machine Learning help research dimensions of medical diagnosis, many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism[^2]. Researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^5]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^6]. Therefore, machine learning can be used to develop a program where facial images can be analyzed to detect Autism in children.
 
 Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^7]. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. The facial images of non-autistic children were randomly downloaded from online and cropped. The author set about creating a CNN classifier on this data set, and had already developed a General Purpose CNN with multiple model options. The model used was derived from transfer learning using MobileNet V1, and the best accuracy achieved was approximately 93% accuracy on the test set. The goal was to achieve 95% accuracy with a low false alarm rate.
 
-This previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. Deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children.
+This previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. 
+
+- [ ] Talk about acuuracy predictions and goals.
 
 ## 2. Methodology
 
@@ -56,6 +60,9 @@ What will be done to carry out this project? what methodology they used ?
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
+- [ ] Remove set image.
+- [ ] Add own image.
+
 ## 4. Datasets
 
 * <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
@@ -66,23 +73,28 @@ The dataset used for this project is a CSV file that contains the filepaths, lab
 - [ ] FIX INFO IN DATA SET PARAGRAPH. (VERSION 12)
 - [ ] ADD IMAGE AS AN EXAMPLE.
 
-## 5. Benchmark
+## 5. Results
+
+- [ ] Talk about the results obtained.
+- [ ] Include Images.
+
+## 6. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 6. Conclusion
+## 7. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 7. Future Work
+## 8. Future Work
 
 Talk about what work will be done in the future.
 
-## 8. Acknowledgments
+## 9. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
-## 9. References
+## 10. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
