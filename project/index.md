@@ -67,6 +67,7 @@ The dataset used for this project was obtained from Kaggle[^7]. This dataset was
 - [ ] Be more specific on the children used in the dataset. For example, talk about the age range, race, and gender ratios.
 
 ## 4. Architecture
+
 ****Convolutional Neural Network
 
 - [ ] Add brief description about CNN.
