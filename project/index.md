@@ -68,7 +68,7 @@ The dataset used for this project was obtained from Kaggle[^7]. This dataset was
 
 ## 4. Architecture
 
-****Convolutional Neural Network
+Convolutional Neural Network
 
 - [ ] Add brief description about CNN.
 - [ ] Tell how it will be used for this project.
