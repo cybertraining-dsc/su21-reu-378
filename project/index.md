@@ -3,7 +3,7 @@ date: 2021-06-16
 title: "Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
 linkTitle: Autism
 tags: ["project", "reu","AI",Autism Spectrum Disorder"]
-description: "Analyzing Facial Images to Detect Austism Spectrum Disorder using AI"
+description: "Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project."
 author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
 resources:
@@ -30,7 +30,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** Autism Spectrum Disorder, Detection, Deep Learning, Computer Vision. 
+**Keywords:** Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network, Computer Vision. 
 
 ## 1. Introduction
 
@@ -38,9 +38,9 @@ Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and ne
 
 Techniques used in Machine Learning help research dimensions of medical diagnosis. Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism[^2]. Researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^4]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^5]. Therefore, machine learning can be used to develop a program where facial images can be analyzed to detect Autism in children.
 
-Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^6]. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. The facial images of non-autistic children were randomly downloaded from online and cropped. The author set about creating a CNN classifier on this data set, and had already developed a General Purpose CNN with multiple model options. The model used was derived from transfer learning using MobileNet V1, and the best accuracy achieved was approximately 93% accuracy on the test set. The goal was to achieve 95% accuracy with a low false alarm rate.
+Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^6]. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. The facial images of non-autistic children were randomly downloaded from online and cropped. The author set about creating a CNN classifier on this data set, and had already developed a General Purpose CNN with multiple model options. The goal was to achieve 95% accuracy with a low false alarm rate.
 
-This previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. 
+This previous research aimed to create a no cost means to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism. To contribute to this previous research, this project will analyze facial images of Autistic and non-autistic male and female children using Artificial Intelligence. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism in children using a facial image. A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. 
 
 - [ ] Talk about accuracy predictions and goals.
 - [ ] ADD PARAGRAPH ABOUT ETHICS IN AUTISM.
@@ -54,17 +54,21 @@ This previous research aimed to create a no cost means to provide a first level 
 
 ## 3. Dataset
 
-* <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
+The dataset used for this project was obtained from Kaggle[^7]. This dataset was chosen because it provides a variety of images of Autistic and Non-autistic children that were already cropped to show only the child's face. It includes sufficient information about the correlation between facial morphology and Autism. It also includes feedback and numerous codes done by other contributers. The author of this dataset collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. He developed a python program to automatically crop the images to include only the extent possible for a facial image. The facial images of non-autistic children were randomly downloaded from online and cropped. This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
 
-The dataset used for this project was obtained from Kaggle[^7]. This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
+**Figure 1:** Image of Child with Autism from Kaggle Dataset.
 
-* ## 2.2.1. Dataset Cleaning
+![Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic.jpg)
+
+**Figure 2:** Image of Child without Autism from Kaggle Dataset.
+
+![Non-autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Non-Autistic.jpg)
+
+- [ ] Be more specific on the children used in the dataset. For example, talk about the age range, race, and gender ratios.
 
 ## 4. Architecture
+****Convolutional Neural Network
 
-What will be done to carry out this project? what methodology they used ? 
-
-* ## 2.1. Convolutional Neural Network
 - [ ] Add brief description about CNN.
 - [ ] Tell how it will be used for this project.
 - [ ] Add an image.
@@ -83,10 +87,15 @@ Your project must include a benchmark. The easiest is to use cloudmesh-common [^
 ## 7. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
+- [ ] State if goal was met, then explain.
+- [ ] Talk about problems experienced/limitations.
 
 ## 8. Future Work
 
 Talk about what work will be done in the future.
+- [ ] Work on a model that can be used for children outside of the dataset age range, i.e teenagers (13-19).
+- [ ] Work on model that trains data for children of all colors, i.e people of color.
+- [ ] Continue working on model to achieve accuracy above 95%.
 
 ## 9. Acknowledgments
 
