@@ -58,7 +58,7 @@ The dataset used for this project was obtained from Kaggle[^7]. This dataset was
 
 **Figure 1:** Child with Autism[^7].
 
-![Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autism.jpg)
+![Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autism(1).jpg)
 
 **Figure 2:** Child without Autism[^7].
 
