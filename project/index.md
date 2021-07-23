@@ -50,7 +50,8 @@ This previous research aimed to create a no cost means to provide a first level 
 - [ ] Talk about previous work that has been done.
 - [ ] Talk about algorithms used and accuracy received.
 - [ ] Talk about how this will help with my work.
-- [ ] Add Images
+- [ ] Add Images.
+- [ ] State how mine will be done differently.
 
 ## 3. Dataset
 
@@ -69,10 +70,6 @@ The dataset used for this project was obtained from Kaggle[^7]. This dataset was
 ## 4. Architecture
 
 Convolutional Neural Network
-
-- [ ] Add brief description about CNN.
-- [ ] Tell how it will be used for this project.
-- [ ] Add an image.
 
 ## 5. Implementation
 
