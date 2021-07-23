@@ -56,11 +56,11 @@ This previous research aimed to create a no cost means to provide a first level 
 
 The dataset used for this project was obtained from Kaggle[^7]. This dataset was chosen because it provides a variety of images of Autistic and Non-autistic children that were already cropped to show only the child's face. It includes sufficient information about the correlation between facial morphology and Autism. It also includes feedback and numerous codes done by other contributers. The author of this dataset collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. He developed a python program to automatically crop the images to include only the extent possible for a facial image. The facial images of non-autistic children were randomly downloaded from online and cropped. This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
 
-**Figure 1:** Child with Autism[^7].
+**Image 1:** Child with Autism[^7].
 
 ![Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autism(1).jpg)
 
-**Figure 2:** Child without Autism[^7].
+**Image 2:** Child without Autism[^7].
 
 ![Non-autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/No%20Autism.jpg)
 
