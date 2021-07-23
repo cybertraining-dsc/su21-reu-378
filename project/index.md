@@ -81,28 +81,28 @@ Convolutional Neural Network
 - [ ] Talk about the results obtained.
 - [ ] Include Images.
 
-## 6. Benchmark
+## 7. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 7. Conclusion
+## 8. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 - [ ] State if goal was met, then explain.
 - [ ] Talk about problems experienced/limitations.
 
-## 8. Future Work
+## 9. Future Work
 
 Talk about what work will be done in the future.
 - [ ] Work on a model that can be used for children outside of the dataset age range, i.e teenagers.
 - [ ] Work on model that trains data for children of all colors, i.e people of color.
 - [ ] Continue working on model to achieve accuracy above 95%.
 
-## 9. Acknowledgments
+## 10. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
-## 10. References
+## 11. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
