@@ -47,11 +47,15 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 
 ## 2. Related Work
 
-- [ ] Talk about previous work that has been done.
-- [ ] Talk about algorithms used and accuracy received.
-- [ ] Talk about how this will help with my work.
-- [ ] Add Images.
-- [ ] State how mine will be done differently.
+Study 1:
+
+Study 2:
+
+Study 3:
+
+Study 4:
+
+Study 5:
 
 ## 3. Dataset
 
