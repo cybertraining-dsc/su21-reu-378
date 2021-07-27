@@ -63,35 +63,68 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 ![Autistic and Non-Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png)
 
-## 4. Architecture
+## 4. Proposed Methodology
 
-Convolutional Neural Network
+### 4.1. Convolutional Neural Network
+
+-[ ] Add info about CNN and how it will be used.
+
+### 4.2. Architecture
+
+**Image 2:** Architecture of utilized Convolutional Neural Network Model.
+
+![CNN Architecture](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png)
 
 ## 5. Implementation
 
-## 6. Results and Discussion
+-[ ] Add info about each figure.
 
-- [ ] Talk about the results obtained.
-- [ ] Include Images.
+**Figure 1:** Plot Histogram (1).
 
-## 7. Benchmark
+![Plot Histogram (1)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(1).png)
+
+**Figure 2:** Plot Histogram (2).
+
+![Plot Histogram (2)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(2).png)
+
+**Figure 3:** Training and Validation (1).
+
+![Training and Validation (1)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(1).png)
+
+**Figure 4:** Training and Validation (2).
+
+![Training and Validation (2)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(2).png)
+
+**Figure 5:** Correct Labels.
+
+![Correct Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20Labels.png)
+
+**Figure 6:** Incorrect Labels.
+
+![Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Incorrect%20Labels.png)
+
+**Figure 7:** Confusion Matrix CNN.
+
+![Confusion Matrix CNN](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png)
+
+## 6. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 8. Conclusion
+## 7. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 - [ ] State if goal was met, then explain.
 - [ ] Talk about problems experienced/limitations.
 
-## 9. Future Work
+## 8. Future Work
 
 Talk about what work will be done in the future.
 - [ ] Work on a model that can be used for children outside of the dataset age range, i.e teenagers.
 - [ ] Work on model that trains data for children of all colors, i.e people of color.
 - [ ] Continue working on model to achieve accuracy above 95%.
 
-## 10. Acknowledgments
+## 9. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
