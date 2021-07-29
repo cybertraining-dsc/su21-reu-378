@@ -38,6 +38,10 @@ Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and ne
 
 Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^4]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^5]. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism[^6]. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Image one provides an example of the facial feature differences between a child with Autism and a child without.
 
+**Image 1:** Image of Child with Autism (left) and Child with no Autism (right)[^7].
+
+![Autistic and Non-Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png)
+
 Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children,  using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism[^2]. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^7]. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost. 
 
 To contribute to this previous research[^7], this project will propose a model that can be used to detect the presence of Autism in children based on a facial image analysis. 
@@ -47,7 +51,7 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 
 Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset[^7], which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset[^6]. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 1.
 
-**Image 1:** Algorithm Architecture using MobileNet[^6].
+**Image 2:** Algorithm Architecture using MobileNet[^6].
 
 ![Algorithm Architecture using MobileNet](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png)
 
@@ -59,9 +63,9 @@ The dataset used for this project was obtained from Kaggle[^7]. This dataset con
 
 This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
 
-**Image 2:** Image of Child with Autism (left) and Child with no Autism (right)[^7].
+**Table 1:** Summary Table of Dataset.
 
-![Autistic and Non-Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png)
+![Summary Table of the Kaggle Dataset]()
 
 ## 4. Proposed Methodology
 
