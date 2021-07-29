@@ -47,7 +47,7 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 
 Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset[^7], which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset[^6]. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 1.
 
-**Image 1:** Algorithm Architecture using MobileNet.
+**Image 1:** Algorithm Architecture using MobileNet[^6].
 
 ![Algorithm Architecture using MobileNet](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png)
 
