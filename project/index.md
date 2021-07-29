@@ -30,7 +30,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network, Computer Vision. 
+**Keywords:** Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network. 
 
 ## 1. Introduction
 
@@ -41,11 +41,17 @@ Many researchers believe that there is a correlation between facial morphology a
 Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children,  using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism[^2]. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^7]. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost. 
 
 To contribute to this previous research[^7], this project will propose a model that can be used to detect the presence of Autism in children based on a facial image analysis. 
-A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch[^8]. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis. 
+A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children, with an accuracy of 95% or higher. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch[^8]. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis. 
 
 ## 2. Related Work
 
-Previous work exists on use of artificial intelligence to detect Autism using a facial image. 
+Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset[^7], which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset[^6]. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 1.
+
+**Image 1:** Algorithm Architecture using MobileNet.
+
+![Algorithm Architecture using MobileNet](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png)
+
+Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we will also utilize a classic Convolutional Neural Network model, but without using MobileNet. This will be done in hopes of obtaining a test accuracy of 95% or higher.
 
 ## 3. Dataset
 
@@ -53,7 +59,7 @@ The dataset used for this project was obtained from Kaggle[^7]. This dataset con
 
 This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
 
-**Image 1:** Image of Child with Autism (left) and Child with no Autism (right)[^7].
+**Image 2:** Image of Child with Autism (left) and Child with no Autism (right)[^7].
 
 ![Autistic and Non-Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png)
 
@@ -65,7 +71,7 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 ### 4.2. Architecture
 
-**Image 2:** Architecture of utilized Convolutional Neural Network Model.
+**Image 3:** Architecture of utilized Convolutional Neural Network Model.
 
 ![CNN Architecture](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png)
 
