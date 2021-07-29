@@ -24,8 +24,6 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project.
 
-- [ ] Add a bit more
-
 Contents
 
 {{< table_of_contents >}}
@@ -47,15 +45,7 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 
 ## 2. Related Work
 
-Study 1:
-
-Study 2:
-
-Study 3:
-
-Study 4:
-
-Study 5:
+Previous work exists on use of artificial intelligence to detect Autism using a facial image. 
 
 ## 3. Dataset
 
