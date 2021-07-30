@@ -65,7 +65,7 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 **Table 1:** Summary Table of Dataset.
 
-![Summary Table of the Kaggle Dataset]()
+![Summary Table of the Kaggle Dataset](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/DATASET%20BREAKDOWN.png)
 
 ## 4. Proposed Methodology
 
