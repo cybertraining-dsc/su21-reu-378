@@ -55,7 +55,7 @@ Previous work exists on the use of artificial intelligence to detect Autism in c
 
 ![Algorithm Architecture using MobileNet](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png)
 
-Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we will also utilize a classic Convolutional Neural Network model, but without using MobileNet. This will be done in hopes of obtaining a test accuracy of 95% or higher.
+Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we will also utilize a classic Convolutional Neural Network model. This will be done in hopes of obtaining a test accuracy of 95% or higher.
 
 ## 3. Dataset
 
@@ -69,9 +69,9 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 ## 4. Proposed Methodology
 
-### 4.1. Convolutional Neural Network
+### 4.1. Convolutional Neural Network (CNN)
 
--[ ] Add info about CNN and how it will be used.
+This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train this Convolution Neural Network model. The architecture of this model can be seen in Image 3.
 
 ### 4.2. Architecture
 
@@ -79,35 +79,19 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 ![CNN Architecture](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png)
 
-## 5. Implementation
+## 5. Results
 
--[ ] Add info about each figure.
+**Image 4:** Results after Execution.
+![Results after Execution]()
 
-**Figure 1:** Plot Histogram (1).
-
-![Plot Histogram (1)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(1).png)
-
-**Figure 2:** Plot Histogram (2).
-
-![Plot Histogram (2)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(2).png)
-
-**Figure 3:** Training and Validation (1).
-
-![Training and Validation (1)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(1).png)
-
-**Figure 4:** Training and Validation (2).
-
-![Training and Validation (2)](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(2).png)
-
-**Figure 5:** Correct Labels.
-
+**Image 5:** Correct Labels.
 ![Correct Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20Labels.png)
 
-**Figure 6:** Incorrect Labels.
+**Image 6:** Incorrect Labels.
 
 ![Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Incorrect%20Labels.png)
 
-**Figure 7:** Confusion Matrix CNN.
+**Image 7:** Confusion Matrix CNN.
 
 ![Confusion Matrix CNN](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png)
 
