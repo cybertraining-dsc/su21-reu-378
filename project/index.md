@@ -73,6 +73,8 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train this Convolution Neural Network model. The architecture of this model can be seen in Image 3.
 
+- [ ] Add more about CNN.
+
 ### 4.2. Architecture
 
 **Image 3:** Architecture of utilized Convolutional Neural Network Model.
@@ -81,38 +83,39 @@ This project utilizes a Convolution Neural Network (CNN) to develop a program th
 
 ## 5. Results
 
+The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A deep learning algorithm was used to develop this inexpensive, but accurate method to detect Autism in children. A Convolutional Neural Network (CNN) classifier was used to create this model, to recieve an accuracy of 95% or higher. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below.
+
 **Image 4:** Results after Execution.
+
 ![Results after Execution](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png)
 
-**Image 5:** Correct Labels and Incorrect Labels.
-![Correct and Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20and%20Incorrect%20Labels%20(2).png)
+validation loss: 57% - validation accuracy: 68% - training loss: 55% - training accuracy: 71%
 
-**Image 7:** Confusion Matrix CNN.
+Image 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).
+
+**Image 5:** Correct Labels and Incorrect Labels.
+
+![Correct and Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Labels.png)
+
+**Image 6:** Confusion Matrix CNN.
 
 ![Confusion Matrix CNN](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png)
 
 ## 6. Benchmark
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
+Add Benchmark
  
-## 7. Conclusion
+## 7. Conclusions and Future Work
 
-A convincing but not fake conclusion should summarize what the conclusion of the project is.
-- [ ] State if goal was met, then explain.
-- [ ] Talk about problems experienced/limitations.
+Autism Spectrum Disorder is a broad range of lifelong developmental and neurological disorders that is considered one of the most growing disorders in children. The World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Techniques that are used by specialists to detect autism can be time consuming and inconvenient for some families. Considering these factors, finding effective and essential ways to detect Autism in children is a neccesity. The aim of this project was to create a model that would analyze facial images of children, and in return determine if the child is Autistic or not. This was done in hopes of receiving 95% accuracy or higher. After executing the model we received an accuracy of 71%. 
 
-## 8. Future Work
+As shown in the results section above, some of the pictures that were initially labeled as Autistic, were labeled incorrectly after running the model. This low accuracy rate could be improved if the CNN model is combined with other algorithms such as transfer learning and VGG-19. This low accuracy could also be improved by using a dataset that includes a wider variety and larger amount of images. We could also ensure that images in the dataset includes children that are of a wider age range. These improvements could possibly increase our chances of obtaining an accuracy of 95% or higher. When this model is improved and an accuracy of atleast 95% is achieved, furture work can be done to creat a model that can be used for Autistic individuals outside of the dataset age range (2 - 14 years old).
 
-Talk about what work will be done in the future.
-- [ ] Work on a model that can be used for children outside of the dataset age range, i.e teenagers.
-- [ ] Work on model that trains data for children of all colors, i.e people of color.
-- [ ] Continue working on model to achieve accuracy above 95%.
-
-## 9. Acknowledgments
+## 8. Acknowledgments
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
-## 11. References
+## 9. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
 
