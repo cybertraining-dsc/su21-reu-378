@@ -82,14 +82,10 @@ This project utilizes a Convolution Neural Network (CNN) to develop a program th
 ## 5. Results
 
 **Image 4:** Results after Execution.
-![Results after Execution]()
+![Results after Execution](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png)
 
-**Image 5:** Correct Labels.
-![Correct Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20Labels.png)
-
-**Image 6:** Incorrect Labels.
-
-![Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Incorrect%20Labels.png)
+**Image 5:** Correct Labels and Incorrect Labels.
+![Correct and Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20and%20Incorrect%20Labels%20(2).png)
 
 **Image 7:** Confusion Matrix CNN.
 
