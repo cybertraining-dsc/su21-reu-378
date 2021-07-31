@@ -18,6 +18,8 @@ Status: draft, Type: Project
 
 Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378), [Edit](https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md)
 
+* Utilized CNN Code: [autism_classification.ipynb](https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/code/autism_classification.ipynb)
+
 {{% pageinfo %}}
 
 ## Abstract
@@ -36,11 +38,11 @@ Contents
 
 Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups, and can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Early detection of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face[^2]. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria[^3]. Specialists use techniques such as behaivoral observation reports, questionaires, and a review of the child's cognitive ability to detect and diagose Autism in children. 
 
-Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^4]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^5]. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism[^6]. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Image one provides an example of the facial feature differences between a child with Autism and a child without.
-
-**Image 1:** Image of Child with Autism (left) and Child with no Autism (right)[^7].
+Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^4]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^5]. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism[^6]. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Figure 1 provides an example of the facial feature differences between a child with Autism and a child without.
 
 ![Autistic and Non-Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png)
+
+**Figure 1:** Image of Child with Autism (left) and Child with no Autism (right)[^7].
 
 Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children,  using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism[^2]. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image[^7]. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost. 
 
@@ -49,11 +51,11 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 
 ## 2. Related Work
 
-Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset[^7], which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset[^6]. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 1.
-
-**Image 2:** Algorithm Architecture using MobileNet[^6].
+Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset[^7], which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset[^6]. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 2.
 
 ![Algorithm Architecture using MobileNet](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png)
+
+**Figure 2:** Algorithm Architecture using MobileNet[^6].
 
 Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we will also utilize a classic Convolutional Neural Network model. This will be done in hopes of obtaining a test accuracy of 95% or higher.
 
@@ -61,7 +63,7 @@ Training of this model completed after fifteen epochs, which resulted in a test 
 
 The dataset used for this project was obtained from Kaggle[^7]. This dataset contained approximately 1500 facial images of children with Autism that were obtained from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. These images consist of male and female children that are of different races and range from around ages two to fourteen. 
 
-This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. 
+This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of 'Autistic' and 'Non-Autistic' subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into 'Autistic' and 'Non-autistic' subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. Table 1 provides a summary of the content in the dataset.
 
 **Table 1:** Summary Table of Dataset.
 
@@ -69,37 +71,31 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 ## 4. Proposed Methodology
 
-### 4.1. Convolutional Neural Network (CNN)
+Convolutional Neural Network (CNN)
 
-This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train this Convolution Neural Network model. The architecture of this model can be seen in Image 3.
-
-- [ ] Add more about CNN.
-
-### 4.2. Architecture
-
-**Image 3:** Architecture of utilized Convolutional Neural Network Model.
+This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.
 
 ![CNN Architecture](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png)
 
+**Figure 3:** Architecture of utilized Convolutional Neural Network Model.
+
 ## 5. Results
 
-The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A deep learning algorithm was used to develop this inexpensive, but accurate method to detect Autism in children. A Convolutional Neural Network (CNN) classifier was used to create this model, to recieve an accuracy of 95% or higher. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below.
-
-**Image 4:** Results after Execution.
+The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A deep learning algorithm was used to develop this inexpensive, but accurate method to detect Autism in children. A Convolutional Neural Network (CNN) classifier was used to create this model, to recieve an accuracy of 95% or higher. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).
 
 ![Results after Execution](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png)
 
+**Figure 4:** Results after Execution.
+
 validation loss: 57% - validation accuracy: 68% - training loss: 55% - training accuracy: 71%
-
-Image 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).
-
-**Image 5:** Correct Labels and Incorrect Labels.
 
 ![Correct and Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Labels.png)
 
-**Image 6:** Confusion Matrix CNN.
+**Figure 5:** Correct Labels and Incorrect Labels.
 
 ![Confusion Matrix CNN](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png)
+
+**Figure 6:** Confusion Matrix CNN.
 
 ## 6. Benchmark
 
