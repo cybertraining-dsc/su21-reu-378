@@ -93,19 +93,20 @@ validation loss: 57% - validation accuracy: 68% - training loss: 55% - training 
 
 **Figure 5:** Correct Labels and Incorrect Labels.
 
+## 6. Benchmark
+
 ![Confusion Matrix CNN](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png)
 
 **Figure 6:** Confusion Matrix CNN.
 
-## 6. Benchmark
-
-Add Benchmark
+- [ ] Add info about CNN confusion matrix.
+- [ ] Add next Benchmark
  
 ## 7. Conclusions and Future Work
 
 Autism Spectrum Disorder is a broad range of lifelong developmental and neurological disorders that is considered one of the most growing disorders in children. The World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide[^1]. Techniques that are used by specialists to detect autism can be time consuming and inconvenient for some families. Considering these factors, finding effective and essential ways to detect Autism in children is a neccesity. The aim of this project was to create a model that would analyze facial images of children, and in return determine if the child is Autistic or not. This was done in hopes of receiving 95% accuracy or higher. After executing the model we received an accuracy of 71%. 
 
-As shown in the results section above, some of the pictures that were initially labeled as Autistic, were labeled incorrectly after running the model. This low accuracy rate could be improved if the CNN model is combined with other algorithms such as transfer learning and VGG-19. This low accuracy could also be improved by using a dataset that includes a wider variety and larger amount of images. We could also ensure that images in the dataset includes children that are of a wider age range. These improvements could possibly increase our chances of obtaining an accuracy of 95% or higher. When this model is improved and an accuracy of atleast 95% is achieved, furture work can be done to creat a model that can be used for Autistic individuals outside of the dataset age range (2 - 14 years old).
+As shown in the results section above, some of the pictures that were initially labeled as Autistic, were labeled incorrectly after running the model. This low accuracy rate could be improved if the CNN model is combined with other algorithms such as transfer learning and VGG-19. This low accuracy could also be improved by using a dataset that includes a wider variety and larger amount of images. We could also ensure that images in the dataset includes children that are of a wider age range. These improvements could possibly increase our chances of obtaining an accuracy of 95% or higher. When this model is improved and an accuracy of atleast 95% is achieved, furture work can be done to create a model that can be used for Autistic individuals outside of the dataset age range (2 - 14 years old).
 
 ## 8. Acknowledgments
 
