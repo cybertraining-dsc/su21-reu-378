@@ -99,8 +99,12 @@ validation loss: 57% - validation accuracy: 68% - training loss: 55% - training 
 
 **Figure 6:** Confusion Matrix CNN.
 
-- [ ] Add info about CNN confusion matrix.
-- [ ] Add next Benchmark
+**Table 2:** Cloudmesh Benchmark
+
+| Name   | Status   |     Time |      Sum | Start               | tag   | msg   | Node         | User   | OS    | Version                            |
+|--------|----------|----------|----------|---------------------|-------|-------|--------------|--------|-------|------------------------------------|
+| Train  | ok       | 3745.28  | 3745.28  | 2021-08-10 16:08:57 |       |       | dab8db0489cd | collab | Linux | #1 SMP Sat Jun 5 09:50:34 PDT 2021 |
+| Test   | ok       |    2.088 |    2.088 | 2021-08-10 17:43:09 |       |       | dab8db0489cd | collab | Linux | #1 SMP Sat Jun 5 09:50:34 PDT 2021 |
  
 ## 7. Conclusions and Future Work
 
