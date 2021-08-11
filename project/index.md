@@ -95,9 +95,13 @@ validation loss: 57% - validation accuracy: 68% - training loss: 55% - training 
 
 ## 6. Benchmark
 
+Figure 6 shows the Confusion Matrix of the Convolutional Neural Network model used in this project. The Confusion Matrix displays a summary of the model's predicted results after its attempt to classify each image as either autistic or non-autistic. Out of the 200 images, 159 of the images were labled correctly and 41 of the images were labled incorrectly.
+
 ![Confusion Matrix CNN](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png)
 
-**Figure 6:** Confusion Matrix CNN.
+**Figure 6:** Confusion Matrix of the Convolutional Neural Network model.
+
+Cloudmesh-common[^9] was used to create a Stopwatch module, that was used to measure and study the training and testing time of the model. Table 2 shows the cloudmesh benchmark output.
 
 **Table 2:** Cloudmesh Benchmark
 
@@ -133,3 +137,5 @@ The author of this project would like to express a vote of thanks to Yohn Jairo,
 [^7]: Piosenka, G., 2020. Detect Autism from a facial image. [Online resource] <https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv>
 
 [^8]: Valuch, F., 2021. Easy Autism Detection with TF.[Online resource] <https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments>
+
+[^9]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark - Cloudmesh-Common, [GitHub] <https://github.com/cloudmesh/cloudmesh-common>
