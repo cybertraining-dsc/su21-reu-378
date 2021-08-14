@@ -1,13 +1,7 @@
-# Code Instructions
+# autism_classification.ipynb Instructions
 
-Put your code here.  If you include a notebook, please also convert the notebook to a PDF 
-file and place it in this directory. 
-Use nbconvert and find out ow to use it viw google.
-
-The code must be documented.
-
-If the output of the notebook is to large (please check the size), you only must be committing the source and 
-create the PDF. the PDF should be referred to in the notebook as a link.
-
-
-
+1. Download Autism dataset from Kaggle and save on your desktop.
+2. Ensure that an Integrated Development Environment is already installed on desktop (ie. Visual Studio Code).
+3. Download autism_classification.ipynb folder and open it in your Integrated Development Environment.
+4. Download all necessary modules within the first cell using pip install.
+5. Once all necessary python modules are installed, select Run All to run all the cells.
