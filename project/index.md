@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
 title: "Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
-linkTitle: Autism
-tags: ["project", "reu","AI",Autism Spectrum Disorder"]
-description: "Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project."
+linkTitle: Autism Detection
+tags: ["project", "reu","AI",Autism Spectrum Disorder","detection"]
+description: "This project uses artificial intelligence to explore the possibility of using a facial image analysis to detect Autism in children. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. The development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. In this project, a Convolutional Neural Network (CNN) is utilized, along with a dataset obtained from Kaggle. This dataset consists of collected images of male and female, autistic and non-autistic children between the ages of two to fourteen years old. These images are used to train and test the CNN model. When one of the images are received by the model and importance is assigned to various features in the image, an output variable (autistic or non-autistic) is received."
 author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
 resources:
@@ -24,7 +24,7 @@ Myra Saunders, [su21-reu-378](https://github.com/cybertraining-dsc/su21-reu-378)
 
 ## Abstract
 
-Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project.
+This project uses artificial intelligence to explore the possibility of using a facial image analysis to detect Autism in children. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. The development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. In this project, a Convolutional Neural Network (CNN) is utilized, along with a dataset obtained from Kaggle. This dataset consists of collected images of male and female, autistic and non-autistic children between the ages of two to fourteen years old. These images are used to train and test the CNN model. When one of the images are received by the model and importance is assigned to various features in the image, an output variable (autistic or non-autistic) is received.
 
 Contents
 
@@ -57,7 +57,7 @@ Previous work exists on the use of artificial intelligence to detect Autism in c
 
 **Figure 2:** Algorithm Architecture using MobileNet[^6].
 
-Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we will also utilize a classic Convolutional Neural Network model. This will be done in hopes of obtaining a test accuracy of 95% or higher.
+Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we utilize a classic Convolutional Neural Network model using tensorflow. This will be done in hopes of obtaining a test accuracy of 95% or higher.
 
 ## 3. Dataset
 
@@ -73,7 +73,7 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 Convolutional Neural Network (CNN)
 
-This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.
+This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train and test this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.
 
 ![CNN Architecture](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png)
 
@@ -81,7 +81,7 @@ This project utilizes a Convolution Neural Network (CNN) to develop a program th
 
 ## 5. Results
 
-The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A deep learning algorithm was used to develop this inexpensive, but accurate method to detect Autism in children. A Convolutional Neural Network (CNN) classifier was used to create this model, to recieve an accuracy of 95% or higher. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).
+The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A Convolutional Neural Network classifier was used to create this model. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).
 
 ![Results after Execution](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png)
 
