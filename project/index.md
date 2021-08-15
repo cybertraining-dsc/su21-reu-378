@@ -40,7 +40,7 @@ Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and ne
 
 Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder[^4]. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more[^5]. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism[^6]. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Figure 1 provides an example of the facial feature differences between a child with Autism and a child without.
 
-![Autistic and Non-Autistic Child](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png)
+![Autistic and Non-Autistic Child](https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png)
 
 **Figure 1:** Image of Child with Autism (left) and Child with no Autism (right)[^7].
 
@@ -53,7 +53,7 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 
 Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset[^7], which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset[^6]. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 2.
 
-![Algorithm Architecture using MobileNet](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png)
+![Algorithm Architecture using MobileNet](https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/2021-07-29.png)
 
 **Figure 2:** Algorithm Architecture using MobileNet[^6].
 
@@ -67,7 +67,7 @@ This project uses version 12 of this dataset, which is the latest version. The d
 
 **Table 1:** Summary Table of Dataset.
 
-![Summary Table of the Kaggle Dataset](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/DATASET%20BREAKDOWN.png)
+![Summary Table of the Kaggle Dataset](https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/DATASET%20BREAKDOWN.png)
 
 ## 4. Proposed Methodology
 
@@ -75,7 +75,7 @@ Convolutional Neural Network (CNN)
 
 This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train and test this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.
 
-![CNN Architecture](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png)
+![CNN Architecture](https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/CNN%20Architecture.png)
 
 **Figure 3:** Architecture of utilized Convolutional Neural Network Model.
 
@@ -83,13 +83,13 @@ This project utilizes a Convolution Neural Network (CNN) to develop a program th
 
 The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A Convolutional Neural Network classifier was used to create this model. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).
 
-![Results after Execution](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png)
+![Results after Execution](https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png)
 
 **Figure 4:** Results after Execution.
 
 validation loss: 57% - validation accuracy: 68% - training loss: 55% - training accuracy: 71%
 
-![Correct and Incorrect Labels](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Labels.png)
+![Correct and Incorrect Labels](https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Labels.png)
 
 **Figure 5:** Correct Labels and Incorrect Labels.
 
@@ -97,7 +97,7 @@ validation loss: 57% - validation accuracy: 68% - training loss: 55% - training 
 
 Figure 6 shows the Confusion Matrix of the Convolutional Neural Network model used in this project. The Confusion Matrix displays a summary of the model's predicted results after its attempt to classify each image as either autistic or non-autistic. Out of the 200 images, 159 of the images were labled correctly and 41 of the images were labled incorrectly.
 
-![Confusion Matrix CNN](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png)
+![Confusion Matrix CNN](https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Confusion%20Matrix%20CNN.png)
 
 **Figure 6:** Confusion Matrix of the Convolutional Neural Network model.
 
