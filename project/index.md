@@ -2,7 +2,7 @@
 date: 2021-06-16
 title: "Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
 linkTitle: Autism Detection
-tags: ["project", "reu","AI",Autism Spectrum Disorder","detection"]
+tags: ["project", "reu", "AI", "Autism Spectrum Disorder", "detection"]
 description: "This project uses artificial intelligence to explore the possibility of using a facial image analysis to detect Autism in children. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. The development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. In this project, a Convolutional Neural Network (CNN) is utilized, along with a dataset obtained from Kaggle. This dataset consists of collected images of male and female, autistic and non-autistic children between the ages of two to fourteen years old. These images are used to train and test the CNN model. When one of the images are received by the model and importance is assigned to various features in the image, an output variable (autistic or non-autistic) is received."
 author: Myra Saunders
 github_url: https://github.com/cybertraining-dsc/su21-reu-378/edit/main/project/index.md
