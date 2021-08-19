@@ -4,9 +4,9 @@ owner:
   lastname: "Saunders"
   hid: "su21-reu-378"
   community: "reu"
-  semester: "sp21"
+  semester: "su21"
 project:
   title: "Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
-  url: "ttps://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md"
+  url: "https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md"
   author:
     - su21-reu-378
