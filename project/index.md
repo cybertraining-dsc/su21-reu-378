@@ -120,6 +120,10 @@ As shown in the results section above, some of the pictures that were initially 
 
 The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. The author would also like to thank Jacques Fleischer for his wonderful assistance and help with this project. A special vote of thanks goes to Florida A&M University for funding this wonderful research program. The completion of this project could not have been possible without their support.
 
+This project was in part supported by the NSF grant
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
+
 ## 9. References
 
 [^1]: World Health Organization. 2021. Autism spectrum disorders, [Online resource] <https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders>
